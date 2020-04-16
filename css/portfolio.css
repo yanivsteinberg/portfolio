@@ -319,6 +319,7 @@ width: 100%;
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	align-items: center;
 	
 	display: -webkit-box;
 	display: -moz-box;
@@ -326,7 +327,7 @@ width: 100%;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: center;
   }
   
   .logos-flex-item {
@@ -335,12 +336,13 @@ width: 100%;
 	margin-top: 10px;
 	text-align: center;
 	height: 100px;
-	margin: 2em;
+	margin: 3em;
 	text-align: center;
 	line-height: 100px;
 	-webkit-filter: saturate(0%); /* Safari 6.0 - 9.0 */
 	 filter: saturate(0%);
 	 opacity: 0.8;
+	 align-items: center;
   }
   
   .logos-flex-item:hover{
