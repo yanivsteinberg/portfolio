@@ -2,6 +2,7 @@
 
 body {
 	background-size: 100%;
+	font-family: 'Open Sans', sans-serif;
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -11,7 +12,7 @@ h1{
 	line-height: 0.9em;
 	font-weight: bold;
 	text-align: center;
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding: 0.1em 0.2em;
 	background: #FFCB02;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #FFCB02, #bfd30a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,7 +32,7 @@ h2{
 	text-align: center;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 h3{
@@ -97,7 +98,7 @@ display: block;
 .title-addition{
 	color: #a8a8a8 !important;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 
 }
 
@@ -122,7 +123,7 @@ display: block;
 }
 /*down arrow*/
 #customerslink2 img{
-    background: #FFCB02;
+    background: #324A5F;
     border-radius: 100px;
 }
 
@@ -274,6 +275,12 @@ li {
 .ylojarvi-main-img{
 	background-image: url();
 }
+
+video {
+	/* override other styles to make responsive */
+	width: 100%    !important;
+	height: 100%   !important;
+  }
 
 .library-main-img{
 	background-image: url(../img/tamcatbeta.jpg);
@@ -648,7 +655,7 @@ a.blog-links{
   content: '';
   position: absolute;
   width: 3px;
-  background-color: #FFCB02;
+  background-color: #324A5F;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -671,7 +678,7 @@ a.blog-links{
   height: 25px;
   right: -11px;
   background-color: white;
-  border: 4px solid #FFCB02;
+  border: 4px solid #324A5F;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -698,7 +705,7 @@ a.blog-links{
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #FFCB02;
+  border-color: transparent transparent transparent #324A5F;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -712,7 +719,7 @@ a.blog-links{
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #FFCB02 transparent transparent;
+  border-color: transparent #324A5F transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -771,7 +778,7 @@ p.timeline-text{
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent transparent transparent #FFCB02;
+    border-color: transparent transparent transparent #324A5F;
   }
 
 /* Makes sure all circles are at the same spot */
