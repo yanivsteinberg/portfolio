@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="846" width="681">
+  <g opacity="1">
+    <g opacity="1">
+      <path fill="rgb(50,74,95)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M246.27937043522343 519.6917359590285L321.70922006462456 230L612.9999999999999 230C640.6142374915396 230 662.9999999999999 252.38576250846032 662.9999999999999 280L662.9999999999999 585.4441960002487L662.9999999999999 610C663 637.6142374915397 640.6142374915396 660.0000000000001 612.9999999999999 660.0000000000001L540.3521505376344 660.0000000000001L298 660.0000000000001L246.27937043522343 519.6917359590285Z"/>
+    </g>
+    <g>
+      <text opacity="1" font-size="0" transform="translate(0, 0)">
+        <tspan fill="rgb(50,74,95)" font-size="600" font-family="Arial Black" font-weight="900" style="white-space: pre;text-transform: none" x="0" y="660">Y</tspan>
+      </text>
+    </g>
+    <g>
+      <text opacity="1" font-size="0" transform="translate(274, 7)">
+        <tspan fill="rgb(255,255,255)" font-size="590" font-family="Arial Black" font-weight="900" style="white-space: pre;text-transform: none" x="0" y="649">S</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

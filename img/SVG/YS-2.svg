@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1024" width="903">
+  <g opacity="1">
+    <g opacity="1">
+      <path fill="rgb(50,74,95)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M30 0L873 0C889.55745073482 0 903 13.442549265180002 903 30L903 819C903 835.55745073482 889.55745073482 849 873 849L30 849C13.442549265180006 849 3.552713678800501e-15 835.55745073482 0 819L0 30C0 13.442549265180006 13.442549265179995 3.552713678800501e-15 29.999999999999993 0Z"/>
+    </g>
+    <g opacity="1">
+      <g transform="translate(215, 162)" opacity="1">
+        <g opacity="1">
+          <path fill="rgb(255,255,255)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M236.27937043522343 519.6917359590285L311.70922006462456 230L602.9999999999999 230C630.6142374915396 230 652.9999999999999 252.38576250846032 652.9999999999999 280L652.9999999999999 585.4441960002487L652.9999999999999 610C653 637.6142374915397 630.6142374915396 660.0000000000001 602.9999999999999 660.0000000000001L530.3521505376344 660.0000000000001L288 660.0000000000001L236.27937043522343 519.6917359590285Z"/>
+        </g>
+        <g>
+          <text opacity="1" font-size="0" transform="translate(0, 0)">
+            <tspan fill="rgb(255,255,255)" font-size="600" font-family="Arial Black" font-weight="900" style="white-space: pre;text-transform: none" x="0" y="660">Y</tspan>
+          </text>
+        </g>
+        <g>
+          <text opacity="1" font-size="0" transform="translate(253, 7)">
+            <tspan fill="rgb(50,74,95)" font-size="590" font-family="Arial Black" font-weight="900" style="white-space: pre;text-transform: none" x="0" y="649">S</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
