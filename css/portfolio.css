@@ -2,7 +2,8 @@
 
 body {
 	background-size: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
+
 }
 
 h1{
@@ -207,7 +208,6 @@ img.imgdown{
   margin: 0 auto;
 }
 
-
 .project{
  	background-color: #f4f4f4;
 }
@@ -252,6 +252,23 @@ width: 100%;
 
 .light-main-img{
 	background-image: url(../img/lightprototypeWEB.jpg);
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	margin-top: 10px;
+}
+
+li {
+    display: list-item;
+	text-align: -webkit-match-parent;
+	margin-left: 20px;
 }
 
 .ylojarvi-main-img{
@@ -317,7 +334,7 @@ width: 100%;
 	background-color: #ffffff;
 	padding: 4rem;
 	padding: 0;
-	margin: 0;
+	margin-right: 40px;
 	list-style: none;
 	align-items: center;
 	
@@ -336,7 +353,7 @@ width: 100%;
 	margin-top: 10px;
 	text-align: center;
 	height: 100px;
-	margin: 3em;
+	margin: 3.3em;
 	text-align: center;
 	line-height: 100px;
 	-webkit-filter: saturate(0%); /* Safari 6.0 - 9.0 */
@@ -368,7 +385,6 @@ width: 100%;
 	width:200px;
   }
    */
-
 
 
 /*--Method--*/
@@ -433,25 +449,31 @@ div.method{
 div.contact{
 	background-color: #324A5F;
 	padding: 2em;
+	border-top: 1px solid black;
+
 }
 
 .contact-details{
     margin-top: 40px;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
+
 }
 
 .contact-img{
 	padding-top: 0px !important;
 	width: 60%;
     display: block;
-    margin: auto;
+	margin: auto;
+	
 }
 
 @media screen  and (max-width:  991px){
 	.contact-img{
 		width: 40%;
 		margin: auto !important;
-   		display: block;
+		display: block;
+
+		   
 	}
 
 }
@@ -467,7 +489,7 @@ div.contact{
 .featurette-heading{
 	padding-left: 2em;
 	padding-right: 2em;
-	color: #FFCB02;
+	color: #324A5F;
 }
 
 .project-details{
@@ -744,7 +766,7 @@ p.timeline-text{
     padding-right: 25px;
   }
 
-/* Make sure that all arrows are pointing leftwards */
+/* Makes sure that all arrows are pointing leftwards */
   .container2::before {
     left: 60px;
     border: medium solid white;
@@ -752,7 +774,7 @@ p.timeline-text{
     border-color: transparent transparent transparent #FFCB02;
   }
 
-/* Make sure all circles are at the same spot */
+/* Makes sure all circles are at the same spot */
   .left::after, .right::after {
     left: 17px;
   }
