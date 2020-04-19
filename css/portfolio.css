@@ -240,15 +240,17 @@ width: 100%;
 }
 
 .protieto-main-img{
-	background-image: url();
+	background-image: url(../img/mobile.png);
 }
 
 .opendigi-main-img{
-	background-image: url();
+	background-image: url(../img/opendigi.jpg);
 }
 
 .naurunpaikka-main-img{
-	background-image: url();
+	background-image: url(../img/naurun.png);
+	object-fit: fill;
+
 }
 
 .light-main-img{
@@ -413,7 +415,7 @@ div.method{
 }
 
 .method h4{
-    background-color: #363636;
+    background-color: #324A5F;
     color: white;
     padding-bottom: 0.8em;
     padding-top: 0.4em;
@@ -441,7 +443,7 @@ div.method{
 }
 
 .svg-background{
-	background-color: #363636;
+	background-color: #324A5F;
 }
 
 .svg{
