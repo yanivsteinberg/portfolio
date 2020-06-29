@@ -278,11 +278,21 @@ li {
 	background-image: url();
 }
 
-.video {
+.video-container{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+
+video {
 	/* override other styles to make responsive */
 	width: 100%    !important;
 	height: 100%   !important;
-  }
+  } */
 
 .library-main-img{
 	background-image: url(../img/tamcatbeta.jpg);
