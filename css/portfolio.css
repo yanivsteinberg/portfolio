@@ -278,7 +278,7 @@ li {
 	background-image: url();
 }
 
-video {
+.video {
 	/* override other styles to make responsive */
 	width: 100%    !important;
 	height: 100%   !important;
