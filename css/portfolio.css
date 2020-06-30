@@ -249,7 +249,7 @@ width: 100%;
 
 .naurunpaikka-main-img{
 	background-image: url(../img/naurun.png);
-	object-fit: fill;
+	object-fit: cover;
 
 }
 
@@ -295,12 +295,12 @@ video {
   } */
 
 .library-main-img{
-	background-image: url(../img/tamcatbeta.jpg);
+	background-image: url(../img/tamcat.jpg);
 }
 
 
 .button-position{
-	    width: 100%;
+	width: 100%;
     position: absolute;
     bottom: 0px;
 }
