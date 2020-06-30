@@ -245,11 +245,12 @@ width: 100%;
 
 .opendigi-main-img{
 	background-image: url(../img/opendigi.jpg);
+	background-position: top;
 }
 
 .naurunpaikka-main-img{
 	background-image: url(../img/naurun.png);
-	object-fit: cover;
+	background-position: top;
 
 }
 
@@ -287,17 +288,16 @@ li {
     overflow: hidden;
 } 
 
-
 video {
 	/* override other styles to make responsive */
 	width: 100%    !important;
 	height: 100%   !important;
-  } */
+  }
 
 .library-main-img{
 	background-image: url(../img/tamcat.jpg);
+	background-position: top;
 }
-
 
 .button-position{
 	width: 100%;
