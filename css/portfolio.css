@@ -400,11 +400,6 @@ video {
   }
   }
   
-  /* .flex-item img {
-	width:200px;
-  }
-   */
-
 
 /*--Method--*/
 div.method{
@@ -765,7 +760,7 @@ p.timeline-subtitle{
 }
 
 p.timeline-text{
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.5em;
 	font-weight: 100;
 	color: #747474 !important
