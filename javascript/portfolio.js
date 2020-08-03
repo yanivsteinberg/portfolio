@@ -166,14 +166,14 @@ $(document).ready(function () {
     var email = $('.email').val()
     var subject = $('.subject').val()
     var message = $('.message').val()
-    var statusElm = $('.status').val()
+    var statusElm = $('.status')
     statusElm.empty();
 
     if (fullName.length > 2) {
       statusElm.append('<div>Name is valid</div>')
     } else {
       event.preventDefault()
-      statusElm.append('<div>Name is not valid</div>')
+      statusElm.append('<div>Enter your full name</div>')
     };
 
     if (email.length > 5 && email.includes('@') && email.includes('.')) {
@@ -187,14 +187,12 @@ $(document).ready(function () {
       statusElm.append('<div>Subject is valid</div>')
     } else {
       event.preventDefault()
-      statusElm.append('<div>Subject is not valid</div>')
+      statusElm.append('<div>The subject is too short</div>')
     };
 
-    if (message.length >= 10) {
-      statusElm.append('<div>Message is valid</div>')
-    } else {
+    if (message.length <= 10) {
       event.preventDefault()
-      statusElm.append('<div>Message is not valid</div>')
+      statusElm.append('<div>Message should be at least 10 characters</div>')
     };
 
   })
