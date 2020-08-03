@@ -16,7 +16,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand" href="#"><img src="img/SVG/YS.svg" width="50" height="60" alt="YS"></a>
+			  <a class="navbar-brand" href="#home"><img src="img/SVG/YS.svg" width="50" height="60" alt="YS"></a>
 			  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon navbar-light"></span>
 				<img src="">
@@ -285,8 +285,8 @@
 								</div>
 					    <br> 
 			        			
-			        			<a class="proj" id="opendigi" href="#myproject">
-				            	<div class='row myproject' id="myproject">
+			        			<a class="proj" id="opendigi" href="#opendigi">
+				            	<div class='row myproject'>
 				            		
 										<div class='col-lg-3 col-md-4 col-ms-6 col-xs-12 project-details'>
 											<h5 class='details-heading'>E-learning Platform For Teachers <span class='text-muted'>Service and conceptual design case (2017)</span></h5>
@@ -468,7 +468,7 @@
 
 					
 					<br>
-					<a id="lightguide" class="proj" href="#myproject">
+					<a id="lightguide" class="proj" href="#lightguide">
 			          <div class='row myproject'>
 							<div class='col-lg-3 col-md-4 col-ms-6 col-xs-12 project-details'>
 								<h5 class='details-heading'>Guided By the Light: Light Guided Way Finding System
@@ -559,7 +559,7 @@
 						<br>
 						
 						
-					<a id="ylojarvi" class="proj" href="#myproject">
+					<a id="ylojarvi" class="proj" href="#ylojarvi">
 			          <div class='row myproject'>
 							<div class='col-lg-3 col-md-4 col-ms-6 col-xs-12 project-details'>
 								<h5 class='details-heading'>A Municipal Digital Experience <span class='text-muted'> Service Design (2016)</span></h5>
@@ -678,7 +678,7 @@
 								</div>
 					   
 					<br>
-					<a id="libraryeva" class="proj" href="#myproject">
+					<a id="libraryeva" class="proj" href="#libraryeva">
 			          <div class='row myproject'>
 						<div class='col-lg-3 col-md-4 col-ms-6 col-xs-12 project-details'>
 							<h5 class='details-heading'>University library online database <span class='text-muted'>An usability evaluation (2015)</span></h5>
@@ -820,22 +820,36 @@
 		        <div class="row contact-details justify-content-center">
 			          	<div class="col-md-6 ">
 			          		<h3>Let's co-create!</h3>
-							  <br>
-							  <form class="contact-form" action="contactform.php" method="post" >
-								  <br>
-								<input type="text" name="name" placeholder="Full name" required>
+							  
+							  <form class="contact-form" action="https://formspree.io/xpzybjaz" method="POST">
 								<br>
-								<input type="text" name="mail" placeholder="Your e-mail" required>
+								  <label>
+									<input type="text" name="name" placeholder="Full name">
+								  </label>							
 								<br>
-								<input type="text" name="subject" placeholder="Subject">
+								<label>
+									<input type="email" name="email" class="email" placeholder="Your e-mail">
+								</label>
+								
 								<br>
-								<textarea name="message" placeholder="Message" row="4"></textarea>
+								<label>
+									<input type="text" name="subject" class="subject" placeholder="Subject">
+								</label>
 								<br>
-								<button type="submit" name="submit"> SUBMIT </button><
+								<label>
+									<textarea name="message" class="message" placeholder="Message" row="4"></textarea>
+								</label>
+								<br>
 
+								<div class="status">
+									<button type="submit" name="submit" class="submit">
+										Send
+									</button>
+								</div>
+								
+								<br><br>
 							  </form>
 
-				            <h4>Yaniv Steinberg</h4>
 				            <h5>yaniv.steinberg@mail.huji.ac.il</h5>			            
 				            <br>
 				            <a href="https://www.linkedin.com/in/yanivsteinberg/ " target="_blank"><img src="img/linkedin-logo.png" alt="linkedin"></a>
@@ -848,7 +862,7 @@
 			<br>
 	  	</div>				
 	</body>
-		<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="javascript/portfolio.js"></script>
 	<script src="bootstrap/js/bootstrap.bundle.js"></script>
 
