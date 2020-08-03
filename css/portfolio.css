@@ -464,21 +464,42 @@ div.contact{
 	background-color: #324A5F;
 	padding: 2em;
 	border-top: 1px solid black;
+	padding: 10px;
+}
 
+div.contact h6{
+	color: white;
 }
 
 .contact-details{
     margin-top: 40px;
 	margin-bottom: 40px;
-
 }
 
 .contact-img{
 	padding-top: 0px !important;
 	width: 60%;
     display: block;
-	margin: auto;
-	
+	margin-right: 0px;
+}
+
+.contact-form{
+	color: white; 
+	padding: 10px;
+	width: 600px !important;
+}
+
+.contact-form input {
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 300px;
+}
+
+.message{
+	width: 300px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 2px;
 }
 
 @media screen  and (max-width:  991px){
