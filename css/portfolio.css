@@ -460,6 +460,13 @@ div.method{
 
 /*--Contact--*/
 
+.flexbox-container{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-evenly;
+}
+
 div.contact{
 	background-color: #324A5F;
 	padding: 2em;
@@ -471,44 +478,79 @@ div.contact h6{
 	color: white;
 }
 
-.contact-details{
-    margin-top: 40px;
-	margin-bottom: 40px;
+div.contact p{
+	font-size: 13px;
+	color: white;
+	opacity: 0.5;
+}
+
+div.contact h3{
+	font-size: 3em;
+	background: -webkit-linear-gradient(to right, #FFCB02, #bfd30a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFCB02, #bfd30a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .contact-img{
 	padding-top: 0px !important;
 	width: 60%;
-    display: block;
-	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .contact-form{
 	color: white; 
 	padding: 10px;
-	width: 600px !important;
+	width: 700px !important;
 }
 
-.contact-form input {
-	margin-left: 12px;
-	margin-top: 2px;
+.message,
+.submit,
+.contact-form input{
+	margin-top: 4px;
+	border-radius: 6px;
+	width: 200px;
+  	transition: width .35s ease-in-out;
+}
+
+.contact-form input:focus {
 	width: 300px;
+	border: 3px solid #FFCB02;
 }
 
 .message{
-	width: 300px;
-	height: 150px;
-	margin-left: 12px;
-	margin-top: 2px;
+	height: 100px;
+	transition: height .35s ease-in-out;
 }
 
-@media screen  and (max-width:  991px){
-	.contact-img{
-		width: 40%;
-		margin: auto !important;
-		display: block;
+.message:focus {
+	width: 400px;
+	height: 200px;
+	border: 3px solid #FFCB02;
+}
 
-		   
+.submit{
+	margin-top: 20px;
+}
+
+button#go:hover {
+	background: #FFCB02;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFCB02, #bfd30a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFCB02, #bfd30a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button#go:active {
+	background: grey;
+}
+
+@media screen and (max-width:  991px){
+	.contact-img,
+	.flexbox-container{
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
 	}
 
 }
@@ -814,7 +856,7 @@ p.timeline-text{
     left: 17px;
   }
 
-/* Make all right containers behave like the left ones */
+/* Makes all right containers behave like the left ones */
   .right {
     left: 0%;
   }

@@ -813,60 +813,62 @@
 		        </div>
 			</div>
 			<br>
-	  	</div>
+		  </div>
+		  
 		<div class="contact" id="contact">	
 			<div class="container">    				
 
-		        <div class="row contact-details justify-content-center">
-			          	<div class="col-md-6 ">
-			          		<h3>Let's co-create!</h3>
+		        <div class="flexbox-container">
+			          	<div class="form-side">
+			          		
 							  
 							  <form class="contact-form" action="https://formspree.io/mvowlboz" method="POST">
-								  <label>
-									  Full name
+								<h3>Let's co-create!</h3>
+								<br>
+								<label>
+									  Full name:
 									  <br>
-									<input type="text" name="name" class="fullName" placeholder="First and Last" required>
-								  </label>							
+									<input type="text" name="name" class="fullName" placeholder="" required>
+									<p>Your first and last names</p>  
+								</label>							
 								<br>
 								<label>
-									E-mail
+									E-mail:
 									<br>
-									<input type="email" name="email" class="email" placeholder="email@domain.tld" required>
+									<input type="email" name="email" class="email" placeholder="" required>
+									<p>email@domain.tld</p>
 								</label>
 								<br>
 								<label>
-									Subject
+									Message:
 									<br>
-									<input type="text" name="subject" class="subject" placeholder="Subject">
+									<textarea name="message" class="message" placeholder="" required></textarea>
+									<p>How may I help?</p> 
 								</label>
-								<br>
-								<label>
-									Message
-									<br>
-									<textarea name="message" class="message" placeholder="How can I help?" required></textarea>
-								</label>
+								
 								<br>
 
 								<div class="status">
 								</div>
 
-								<button type="submit" name="submit" class="submit">
-									Send
+								<button type="submit" name="submit" class="submit" id="go">
+									Send message
 								</button>
-								<br><br>
 							  </form>
 
 				          
 					    </div>   
-			          	<div class="col-lmd-6">
-							<img class="featurette-image img-fluid mx-auto contact-img" src="img/yanivsteinberg.jpeg" alt="Yaniv" >
-							<h4>Yaniv Steinberg</h4>
-							<h6>yaniv.steinberg@mail.huji.ac.il</h5>	            
-							<h6>+358 40 3217676</h6>
-							<br>
-				            <a href="https://www.linkedin.com/in/yanivsteinberg/ " target="_blank"><img src="img/linkedin-logo.png" alt="linkedin"></a>						</div>
-		        </div>
-			</div>
+			          		<div class="contact-right">
+									<img class="contact-img" src="img/yanivsteinberg.jpeg" alt="Yaniv" >
+								<div class="contact-text">
+									<h4>Yaniv Steinberg</h4>
+									<h6>yaniv.steinberg@mail.huji.ac.il</h5>	            
+									<h6>+358 40 3217676</h6>
+									<a href="https://www.linkedin.com/in/yanivsteinberg/ " target="_blank"><img src="img/linkedin-logo.png" alt="linkedin"></a>						</div>
+								</div>
+							</div>
+						</div>
+						
 			<br>
 	  	</div>				
 	</body>

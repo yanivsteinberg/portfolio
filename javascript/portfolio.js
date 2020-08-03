@@ -164,7 +164,6 @@ $(document).ready(function () {
 
     var fullName = $('.fullName').val()
     var email = $('.email').val()
-    var subject = $('.subject').val()
     var message = $('.message').val()
     var statusElm = $('.status')
     statusElm.empty();
@@ -180,19 +179,12 @@ $(document).ready(function () {
       statusElm.append('<div>Email is valid</div>')
     } else {
       event.preventDefault()
-      statusElm.append('<div>Email is not valid</div>')
-    };
-
-    if (subject.length >= 2) {
-      statusElm.append('<div>Subject is valid</div>')
-    } else {
-      event.preventDefault()
-      statusElm.append('<div>The subject is too short</div>')
+      statusElm.append('<div>Your email is not valid</div>')
     };
 
     if (message.length <= 10) {
       event.preventDefault()
-      statusElm.append('<div>Message should be at least 10 characters</div>')
+      statusElm.append('<div>Your message should be at least 10 characters</div>')
     };
 
   })
