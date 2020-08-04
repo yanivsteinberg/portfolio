@@ -465,6 +465,7 @@ div.method{
 	margin-top: 40px;
 	margin-bottom: 40px;
 	justify-content: space-between;
+	min-width: 300px;
 }
 
 div.contact{
@@ -502,10 +503,12 @@ div.contact h3{
 .contact-form{
 	color: white; 
 	margin-left: 20px;
+
 }
 
 .contact-right{
 	margin-left: 20px;
+
 }
 
 .message,
@@ -531,7 +534,7 @@ div.contact h3{
 .message:focus {
 	width: 400px;
 	height: 200px;
-	border: 3px solid yellowgreen;
+	border: 3px solid #FFCB02;
 }
 
 .submit{

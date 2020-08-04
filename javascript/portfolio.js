@@ -160,7 +160,6 @@ $('#portfolio-vid').mouseover(function () {
 /*---contact---*/
 $(document).ready(function () {
   $('.submit').click(function (event) {
-    console.log('clicked button')
 
     var fullName = $('.fullName').val()
     var email = $('.email').val()
