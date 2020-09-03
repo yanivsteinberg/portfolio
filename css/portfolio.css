@@ -372,12 +372,12 @@ video {
 	margin-top: 10px;
 	text-align: center;
 	height: 100px;
-	margin: 3.3em;
+	margin: 3em;
 	text-align: center;
 	line-height: 100px;
 	-webkit-filter: saturate(0%); /* Safari 6.0 - 9.0 */
 	 filter: saturate(0%);
-	 opacity: 0.8;
+	 opacity: 0.7;
 	 align-items: center;
   }
   
@@ -462,8 +462,7 @@ div.method{
 
 .flexbox-container{
 	display: flex;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	justify-content: space-between;
 	min-width: 300px;
 }
@@ -482,8 +481,9 @@ div.contact p{
 	font-size: 13px;
 	color: white;
 	opacity: 0.5;
-	margin-bottom: 4px;
+	margin-bottom: 2px;
 }
+
 
 div.contact h3{
 	font-size: 3em;
@@ -495,20 +495,18 @@ div.contact h3{
 
 .contact-img{
 	padding-top: 0px !important;
-	width: 60%;
+	width: 50%;
 	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-right{
+  margin-left: 40px;
 }
 
 .contact-form{
 	color: white; 
-	margin-left: 20px;
-
-}
-
-.contact-right{
-	margin-left: 20px;
-
+	margin-left: 40px;
 }
 
 .message,
@@ -577,8 +575,9 @@ button#go:active {
 /*--Project---*/
 
 .container.project{
-	padding-left: 6em;
-	padding-right: 6em;
+	padding-left: 1em;
+  padding-right: 1em;
+  width: fit-content;
 }
 
 
